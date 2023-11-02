@@ -7,7 +7,7 @@ import gobona from '../assets/images/gobona.svg'
 
 const Partners = () => {
   return (
-    <section class="container partners">
+    <section className="container partners">
         <img src={paperz} alt="paperz company logo" />
         <img src={dorfus} alt="dorfuz company logo" />
         <img src={martino} alt="martino company logo" />

@@ -6,47 +6,47 @@ import img_team_4 from '../../assets/images/team-4.jpg'
 
 const Team = () => {
   return (
-    <div class="team container">
-            <div class="team-top">
-                <div class="team-top-title">
-                    <p class="red-tag">Meet Our Team</p>
+    <div className="team container">
+            <div className="team-top">
+                <div className="team-top-title">
+                    <p className="red-tag">Meet Our Team</p>
                     <h2>Experience Team Members</h2>
                 </div>
-                <div class="team-button">
-                    <button class="rounded-button">
+                <div className="team-button">
+                    <button className="rounded-button">
                         Browse Team
-                        <i class="fa-light fa-arrow-right"></i>
+                        <i className="fa-light fa-arrow-right"></i>
                     </button>
                 </div>
             </div>
-            <div class="team-bottom">
-                <div class="team-member">
+            <div className="team-bottom">
+                <div className="team-member">
                     <img src={img_team_1} alt="Team member Kristine Palmer" />
                     <h4>Kristine Palmer</h4>
                     <p>Chef Operation Officer</p>
                 </div>
-                <div class="team-member">
+                <div className="team-member">
                     <img src={img_team_2} alt="Team member Mark Aubri" />
                     <h4>Mark Aubri</h4>
                     <p>Senior Consultant</p>
                 </div>
-                <div class="team-member">
+                <div className="team-member">
                     <img src={img_team_3} alt="Team member Kimberly Hansen" />
                     <h3>Kimberly Hansen</h3>
                     <p>Senior Consultant</p>
                 </div>
-                <div class="team-member">
+                <div className="team-member">
                     <img src={img_team_4} alt="Team member Justin Willoman" />
                     <h3>Justin Willoman</h3>
                     <p>Senior Tech Consultant</p>
                 </div>
             </div>
-            <div class="gallery-icon">
-                <i class="fa-sharp fa-solid fa-circle-small"></i>
-                <i class="fa-sharp fa-solid fa-circle-small gallery-current"></i>
-                <i class="fa-sharp fa-solid fa-circle-small"></i>
-                <i class="fa-sharp fa-solid fa-circle-small"></i>
-                <i class="fa-sharp fa-solid fa-circle-small"></i>
+            <div className="gallery-icon">
+                <i className="fa-sharp fa-solid fa-circle-small"></i>
+                <i className="fa-sharp fa-solid fa-circle-small gallery-current"></i>
+                <i className="fa-sharp fa-solid fa-circle-small"></i>
+                <i className="fa-sharp fa-solid fa-circle-small"></i>
+                <i className="fa-sharp fa-solid fa-circle-small"></i>
             </div>
         </div>
   )

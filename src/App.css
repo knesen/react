@@ -147,6 +147,8 @@ body header .container .header-menu .top-row .contact {
 body header .container .header-menu .top-row .contact div {
   border-right: 1px solid #DAD9D3;
   padding-right: 30px;
+  display: flex;
+  gap: 5px;
 }
 body header .container .header-menu .top-row .contact div.contact-last {
   border: none;
@@ -271,6 +273,7 @@ body footer .footer-top .container .footer-item a {
   font-family: inter;
   font-size: 16px;
   font-weight: 300;
+  color: #FFFFFF;
 }
 body footer .footer-bottom {
   display: flex;
@@ -1300,4 +1303,23 @@ body .contact-background .form-background form .input-large {
 body .contact-background .form-background form button {
   margin-top: 28px;
   width: 100%;
+}
+
+.page-not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 320px;
+  gap: 40px;
+}
+
+.page-not-found a {
+  text-decoration: none;
+
+}
+
+.page-not-found h1 {
+  font-size: 50px;
+
 }

@@ -1,32 +1,29 @@
 import './App.css';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Home from './views/Home';
+import Contact from './views/Contact';
+import NotFound from './views/NotFound';
 import Header from './components/HeaderSection/Header';
-import Showcase from './components/Showcase';
-import Partners from './components/Partners';
-import Features from './components/Features';
-import About from './components/About';
-import Services from './components/Services'
-import WhyChooseUs from './components/WhyChooseUs';
-import Projects from './components/Projects';
-import TeamAndTestimonial from './components/TeamAndTestimonial/TeamAndTestimonial';
-import News from './components/News';
-import Signup from './components/Signup';
 import Footer from './components/Footer';
+import News from './views/News';
+import NewsDetails from './views/NewsDetails';
+
+
 
 function App() {
   return (
-    <div className="wrapper">    
-      <Header />
-      <Showcase />  
-      <Partners />    
-      <Features />
-      <About />
-      <Services />
-      <WhyChooseUs />
-      <Projects />
-      <TeamAndTestimonial />
-      <News />
-      <Signup />
-      <Footer />
+    <div>      
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/news' element={<News />} />
+      <Route path='/newsdetails' element={<NewsDetails />} />
+      <Route path='/contact' element={<Contact />} />
+      <Route path='*' element={<NotFound />} />
+    </Routes>      
+    </BrowserRouter>   
     </div>
   );
 }
