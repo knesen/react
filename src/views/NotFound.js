@@ -11,9 +11,9 @@ const NotFound = () => {
         <h1>404 Page Not Found</h1>
 
         <Link to="/">
-          <button class="rounded-button orange-button">
+          <button className="rounded-button orange-button">
             Go back to the home page
-            <i class="fa-light fa-arrow-up-right"></i>
+            <i className="fa-light fa-arrow-up-right"></i>
           </button>
         </Link>
         
