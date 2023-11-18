@@ -41,7 +41,7 @@ const News = () => {
                 {/* <strong>25</strong> */}
                 <strong>{article.published.substring(0, 10)}</strong>
               </div>
-              <img src={article.imageUrl} alt="Article image" />
+              <img src={article.imageUrl} alt="Article" />
 
               <p className="news-category">{article.category}</p>
               <h3>{article.title}</h3>

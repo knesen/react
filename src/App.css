@@ -1040,16 +1040,16 @@ body .news .news-articles .news-item p {
 }
 body .news .news-articles .news-item .date-box {
   background-color: #F9D783;
-  width: 56px;
-  height: 64px;
+  /* width: 20%;
+  height: 13%; */
   position: absolute;
   top: 16px;
-  left: 16px;
-  padding-top: 12px;
+  left: 16px;  
+  padding: 6px;
   text-align: center;
 }
 body .news .news-articles .news-item .date-box strong {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 22px;
   color: #191919;
@@ -1323,4 +1323,10 @@ body .contact-background .form-background form button {
 .page-not-found h1 {
   font-size: 50px;
 
+}
+
+.errorMessage {
+  text-align: start;
+  color: red;
+  font-size: 14px;
 }

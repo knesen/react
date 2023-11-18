@@ -3,7 +3,7 @@ import Header from '../components/HeaderSection/Header'
 
 
 import Footer from '../components/Footer'
-import SubHeader from '../components/SubHeader'
+import ContactSubHeader from '../components/ContactPage/ContactSubHeader'
 import ContactBoxes from '../components/ContactPage/ContactBoxes'
 import ContactForm from '../components/ContactPage/ContactForm'
 import Map from '../components/ContactPage/Map'
@@ -12,7 +12,7 @@ const Contact = () => {
     return (
         <body>
             <Header />
-            <SubHeader />
+            <ContactSubHeader />
             <ContactBoxes />
             <ContactForm />
             <Map />

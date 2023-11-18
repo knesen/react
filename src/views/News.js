@@ -1,15 +1,15 @@
 import React from 'react'
 import Header from '../components/HeaderSection/Header'
-import SubHeader from '../components/SubHeader'
+import NewsSubHeader from '../components/News/NewsSubHeader'
 import Footer from '../components/Footer'
-import NewsSection from '../components/NewsSection'
+import NewsSection from '../components/HomeNewsSection'
 import TestNewsSection from '../components/TestNewsSection'
 
 const News = () => {
   return (
     <div>
         <Header />
-        <SubHeader />
+        <NewsSubHeader />
         <TestNewsSection />
         {/* <NewsSection /> */}
         <Footer />

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Header from '../components/HeaderSection/Header'
-import SubHeader from '../components/SubHeader'
+import NewsSubHeader from '../components/News/NewsSubHeader'
 import Footer from '../components/Footer'
 
 const NewsDetails = () => {
@@ -25,7 +25,7 @@ const NewsDetails = () => {
   return (
     <div>
       <Header />
-      <SubHeader />
+      <NewsSubHeader />
       <h2>{ article.title }</h2>
       <div>{ article.category }</div>
       <div>{ article.author }</div>

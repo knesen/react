@@ -1,8 +1,8 @@
 import React from 'react'
-import img_background_lines from '../assets/images/background-lines.svg'
+import img_background_lines from '../../assets/images/background-lines.svg'
 import { Link } from 'react-router-dom'
 
-const SubHeader = () => {
+const ContactSubHeader = () => {
     return (
         <section className="sub-header">
             <div className="container">
@@ -17,4 +17,4 @@ const SubHeader = () => {
     )
 }
 
-export default SubHeader
+export default ContactSubHeader
