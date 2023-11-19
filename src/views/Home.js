@@ -8,7 +8,7 @@ import Services from '../components/Services'
 import WhyChooseUs from '../components/WhyChooseUs';
 import Projects from '../components/Projects';
 import TeamAndTestimonial from '../components/TeamAndTestimonial/TeamAndTestimonial';
-import NewsSection from '../components/HomeNewsSection';
+import NewsSection from '../components/News/NewsSection';
 import Signup from '../components/Signup';
 import Footer from '../components/Footer';
 

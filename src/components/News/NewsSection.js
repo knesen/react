@@ -1,21 +1,15 @@
 import React, { useEffect, useState } from 'react'
 
-import img_news_1 from '../assets/images/news-1.jpg'
-import img_news_2 from '../assets/images/news-2.jpg'
-import img_news_3 from '../assets/images/news-3.jpg'
-
-
-
 import { Link } from 'react-router-dom'
 
 
 const News = () => {
   const [articles, setArticles] = useState([])
 
+
+
   useEffect(() => {
-    getArticles()
-    console.log("Running")
-    console.log(articles)
+    getArticles()  
 
   }, [])
 
@@ -28,17 +22,18 @@ const News = () => {
       <div className="red-tag">Article & News</div>
       <div className="news-title">
         <h2>Get Every Single Articles & News</h2>
+        <Link to="/news">
         <button className="rounded-button">
-          Browse Articles
+        Browse Articles
           <i className="fa-light fa-arrow-up-right"></i>
         </button>
+        </Link>
       </div>
       <div className="news-articles">
         {
           articles.map((article, index) => (
-            <Link to={`/newsDetails/$(article.id)`} className="news-item" key={article.id}>
-              <div className="date-box">
-                {/* <strong>25</strong> */}
+            <Link to={`/newsDetails/${article.id}`} className="news-item" key={article.id}>
+              <div className="date-box">                
                 <strong>{article.published.substring(0, 10)}</strong>
               </div>
               <img src={article.imageUrl} alt="Article" />

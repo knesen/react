@@ -10,7 +10,7 @@ const NewsSubHeader = () => {
                     <Link to="/">Home</Link>
                     <Link to="/news">News</Link>
                 </nav>
-                <h2>Let's Connect</h2>
+                <h2>News & Articles</h2>
             </div>
             <img src={img_background_lines} alt="swirly background lines" />
         </section>

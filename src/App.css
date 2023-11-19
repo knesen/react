@@ -987,7 +987,13 @@ body .news .news-title {
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 20px;
+    
 }
+
+body .news .news-title a {
+  text-decoration: none;
+}
+
 @media (max-width: 992px) {
   body .news .news-title {
     flex-wrap: wrap;
@@ -1329,4 +1335,40 @@ body .contact-background .form-background form button {
   text-align: start;
   color: red;
   font-size: 14px;
+}
+
+div .article {
+  padding: 100px;
+
+  
+}
+
+div .article img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+div .article .article-details {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+
+div .article .article-details div {
+  margin-right: 40px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+div .article h2 {
+  margin-bottom: 20px;
+}
+
+.spacer {
+  background-color: #f9d783;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+
 }
